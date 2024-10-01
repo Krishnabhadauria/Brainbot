@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f0f0; /* light gray background */
+    height: 100vh; /* make the background cover the full page height */
+    margin: 0; /* remove default margin */
+    font-family: 'Roboto', sans-serif; /* Set Roboto as the default font */
+    background-image: url('./homebg.png');
+    background-size: cover;
+    z-index: -1;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff; /* dark gray text */
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive; /* Set Pacifico for the heading */
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff; /* gray text */
+    margin-bottom: 20px;
+}
+
+.subject-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subject-buttons button {
+    width: 100%; /* make each button full width */
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #2196F3; /* blue background */
+    color: #fff; /* white text */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px; /* add some margin between buttons */
+}
+
+.subject-buttons button:hover {
+    background-color: #0b7bff; /* darker blue background on hover */
+}

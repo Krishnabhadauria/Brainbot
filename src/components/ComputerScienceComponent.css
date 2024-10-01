@@ -1,0 +1,85 @@
+body {
+  margin: 0; /* Remove default margin */
+  min-height: 100vh; /* Ensure the body covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  position: fixed; /* Use fixed positioning to keep it in view */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(circle, #ffffff 0%, #2196F3 100%);
+}
+
+.heading {
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* dark gray text */
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 50%; /* changed to 50% width */
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* added to center the input field */
+}
+
+.ask-button {
+  width: 20%; /* changed to 20% width */
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #4c6aaf; /* button background */
+  color: #fff; /* white text */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px auto; /* added to center the button */
+}
+
+.ask-button:hover {
+  background-color: #251955; /* darker background on hover */
+}
+
+.response {
+  width: 50%; /* changed to 50% width */
+  font-size: 18px;
+  color: #666; /* gray text */
+  margin: 20px auto; /* added to center the response text */
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background-color: #ccc;
+}
+
+.home-button i {
+  font-size: 24px;
+  color: #2196F3;
+}
